@@ -1,0 +1,83 @@
+C - datatypes
+---
+int
+float
+char
+double
+long
+short
+
+python - objects
+-------
+
+number
+------
+number can be integer or decimal or hexa or octal.
+
+val = 10
+aval = 34.34
+
+
+string
+------
+string is defined in single or double or triple quotes.
+
+aname = 'python'
+bname = "unix shell scripting"
+cname = """large language models"""
+
+
+list ( array in C)
+------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+
+alist = [10,20,30,40]
+blist = ["unix","java","oracle"]
+clist = [[10,20],[30,40]]
+
+
+tuple ( immutable  unchangeable  uneditable)
+------
+tuple contains  set of elements.
+Elements can be numbers or strings or any combination.
+** Elements inside tuple cannot be modified directly ***
+
+atup = (10,20,30)
+btup = ("java","oracle")
+
+
+dictionary ( hashmap   hash    associatearray   json)
+-----------
+dictionary contains key:value pairs.
+dictionary is defined in {}.
+key can be number or string to identify the value.
+value can be number,string,list,tuple,dictionary or any complex datastructure
+
+syntax:  object = { key:value , key:value , key:value }
+example:   book = {"chap1:10 ,"chap2":20 ,"chap3":30 }
+         bookinfo= {"chap1:[10,"india"] ,"chap2"[20,"UK"] }
+        numbers  = {1:2,3:4}
+          
+set
+----
+set is UNORDERED collection of UNIQUE elements of SAME type.
+
+aset = {10,10,20,30,30}
+
+
+conditional statements
+--------------------
+if 
+if-else 
+if-elif-elif-elif-else 
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+level1
+level1
