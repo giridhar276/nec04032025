@@ -7,6 +7,7 @@ double
 long
 short
 
+
 python - objects
 -------
 
@@ -72,6 +73,7 @@ if
 if-else 
 if-elif-elif-elif-else 
 
+
 level1
 level1
 level1
@@ -81,3 +83,139 @@ if cond:
     level2
 level1
 level1
+if cond:
+    level2
+level1
+
+file handling
+--------------
+
+txt
+csv
+docx
+xlsx
+jpg
+png
+pdf
+mp3
+mp4
+mpeg
+odc
+pptx
+zip
+rar
+tar.gz
+7z
+dat
+log
+json
+xml
+env
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<graphics.h>
+#include<datetime.h>
+#include<time.h>
+#include<stdmanip.h>
+#include<string.h>
+
+
+working with flat files ( txt csv  conf  log json ...)
+
+
+
+
+working with third party files ( xlsx zip  7z  pptx  docx pdf )
+library called openpyxl for excel files
+library docx to work with word documents.
+
+
+working with flat files ( txt csv  conf  log json ...)
+-------------------------------------------------
+r - read mode 
+w - write mode
+a - append mode
+
+
+opening the file
+----------------
+syntax:  object = open(filename,mode)
+example:   fobj = open("customers.txt","r")
+
+closing the file
+----------------
+fobj.close()
+
+read operation
+------------------
+1. reading the file line by line
+2. fobj.readlines()
+3. fobj.read()
+4. using csv library
+5. using pandas library ( much suited for data analytics)
+
+
+
+exception handling
+-----------------
+Basically we have 2 types of errors.
+
+1. syntax error
+2. semantic error or runtime error or logical error
+
+Handling the errors that occurs during the runtime is known as exception handling.
+
+try
+except
+else
+finally
+
+
+function | block | definition | subroutine
+-------------------------------------------
+-some lines of code written separately for the resusability purpose.
+-write the function once and call it for multiple times.
+
+There are 2 types of functions
+
+
+1. builtin functions
+2. user defined functions
+
+
+user defined functions
+---------------------------
+
+ways of passing arguments
+- fixed arguments
+- default arguments
+- variable length arguments
+
+
+linux                  python
+-----------          --------------
+rm -rf filename         os.remove(filename)
+                        os.unlink(filename)
+
+
+whoami                   os.getlogin
+
+cpuutlization/           psutil.cpu_percent()
+memoryutliztin 
+
+cp source des            shutil.copy(s,d)
+
+
+
+
+
+task/requirement = core python            + python library/framework   + domain expertise
+         (procedural or object oriented)
+
+
+
+analytics
+---------------
