@@ -1,221 +1,283 @@
-C - datatypes
----
-int
-float
-char
-double
-long
-short
+
+vs code
+spyder
+jupyter notebook
+pycharm
+eclipse
 
 
-python - objects
--------
+anaconda package ( comes along with python)
+------------
+spyder IDE
+jupyter notebook
+
+
+
+python objects
+--------------------
+Everything in python is object
+Every object contains methods
+
 
 number
 ------
 number can be integer or decimal or hexa or octal.
 
 val = 10
-aval = 34.34
+aval = 34.3
 
 
 string
 ------
 string is defined in single or double or triple quotes.
 
-aname = 'python'
-bname = "unix shell scripting"
-cname = """large language models"""
+name = 'python programming'
+aname = "java programming"
+bname = """r programming"""
 
 
-list ( array in C)
-------------------
+list ( array in C )
+-----
 list contains set of elements.
-Elements can be numbers or strings or any combination.
+Elements can be set of numbers or strings or any combination.
 
-alist = [10,20,30,40]
-blist = ["unix","java","oracle"]
-clist = [[10,20],[30,40]]
+alist = [10,20,30,40,50]
+blist = [34,"unix","oracle",34.34,[40,50],(34,12)]
 
 
-tuple ( immutable  unchangeable  uneditable)
+
+tuple ( immutable , read only , uneditable , unchangeable)
 ------
-tuple contains  set of elements.
+tuple contains set of elements.
 Elements can be numbers or strings or any combination.
-** Elements inside tuple cannot be modified directly ***
+** Elements inside tuple cannot be modified directly **
 
-atup = (10,20,30)
-btup = ("java","oracle")
+atup = (30,40,50,40)
+btup = (45,43,"java",34,(34,32))
 
 
-dictionary ( hashmap   hash    associatearray   json)
+empdb = [["ram",30],["rita",23] ] # list of lists
+empdb = [("ram",30),("rita",23) ] # list of tuples
+
+
+dictionary ( json , associative array , hash , hashmap)
 -----------
-dictionary contains key:value pairs.
-dictionary is defined in {}.
-key can be number or string to identify the value.
-value can be number,string,list,tuple,dictionary or any complex datastructure
+- all about keys and values.
+- indexing is NOT allowing in dictionary
+- with help of key we access value.
+- key can be number or string used to access value
+- value can be number or string or list or tuple or dictionary or any complex data structure
+- dictionaries are really complex in production
 
-syntax:  object = { key:value , key:value , key:value }
-example:   book = {"chap1:10 ,"chap2":20 ,"chap3":30 }
-         bookinfo= {"chap1:[10,"india"] ,"chap2"[20,"UK"] }
-        numbers  = {1:2,3:4}
-          
+syntax:  
+object = { key:value , key:value , key:value}
+
+example:
+book   = {"chap1":10 ,"chap2":20 ,"chap3":30}
+data   = {1:2,3:4,5:6}
+book   = {"chap1":["rita","UK"] ,"chap2":["rao","IND"]}
+
+Index
+------
+chap1 10
+chap2 20
+chap3 30
+----- --
+key   value
+
+
+
 set
-----
-set is UNORDERED collection of UNIQUE elements of SAME type.
+-----
+set is unordered collection of unique elements of same type.
 
-aset = {10,10,20,30,30}
-
-
-conditional statements
---------------------
-if 
-if-else 
-if-elif-elif-elif-else 
+aset = {10,20,30,30,30,30,30,30,30}
+bset = {30,40,50}
 
 
-level1
-level1
-level1
-if cond:
-    level2
-    level2
-    level2
-level1
-level1
-if cond:
-    level2
-level1
 
-file handling
+
+
+
+
+
+
+
+datatypes in c
 --------------
+int a = 10;
+float b = 34.43;
+char
+double
+long
+short
 
-txt
-csv
-docx
-xlsx
-jpg
-png
-pdf
-mp3
-mp4
-mpeg
-odc
-pptx
-zip
-rar
-tar.gz
-7z
-dat
-log
-json
-xml
-env
+conditions
+------------
+if condition
+if-else condition
+if-elif-elif-elif..else condition
+
+
+control statements
+-----------------
+for
+while
+
+
+
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+level1
+level1
+
+
+dictionary
+set
+builtin functions
+user defined functions
+exammples/usecases
+lambda,map,filter
+
+
+
+function | definition | block | subroutine
+---------------------------------------------
+- builtin function
+- user defined functions
+
+
+builtin functions
+-----------------
+
+dir(__builtins__)
+
+
+print()
+range()
+len()
+type()
+input()
+max()
+min()
+sum()
+dir()
+help()
+isinstance()
+
+str()
+int()
+float()
+oct()
+list()
+tuple()
+dict()
+set()
+
+user defined functions ( def keyword)
+--------------------
+- reusable purpose
+- we defined the block once and call it for multiple times.
+
+
+fixed arguments
+default arguments
+variable lengh arguments
+
+*,**
+
+# every OS contains set of processes
+# every process contains system calls
+
+
+c language - headerfiles
+--------------
 
 
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
-#include<graphics.h>
-#include<datetime.h>
-#include<time.h>
-#include<stdmanip.h>
+#include<stdlib.h>
+#include<conio.h>
 #include<string.h>
+#include<graphics.h>
+#include<stdmanip.h>
 
 
-working with flat files ( txt csv  conf  log json ...)
+python  - library , package  modules
+-----------------------------
+www.pypi.org
+
+libraries for network, n/w autonation , testing, server , secure copy, analytics
+              ML, DL, gen ai , web development, web scraping , excel
 
 
 
 
-working with third party files ( xlsx zip  7z  pptx  docx pdf )
-library called openpyxl for excel files
-library docx to work with word documents.
+working on any task =  core python(procedural or object oriented) + good knownledge of libraries
 
 
-working with flat files ( txt csv  conf  log json ...)
--------------------------------------------------
-r - read mode 
-w - write mode
-a - append mode
 
 
-opening the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+core programming
 ----------------
-syntax:  object = open(filename,mode)
-example:   fobj = open("customers.txt","r")
+- procedural programming
+- object oriented programming
 
-closing the file
-----------------
-fobj.close()
 
-read operation
-------------------
-1. reading the file line by line
-2. fobj.readlines()
-3. fobj.read()
-4. using csv library
-5. using pandas library ( much suited for data analytics)
+task = core programming + sound knowledge on libraries
 
 
 
 exception handling
------------------
-Basically we have 2 types of errors.
+---------------------
 
-1. syntax error
-2. semantic error or runtime error or logical error
-
-Handling the errors that occurs during the runtime is known as exception handling.
-
-try
-except
-else
-finally
+try   : we write our code in try block
+except: If something went wrong in try block.. control comes to except block so that program doesnt get terminated
 
 
-function | block | definition | subroutine
--------------------------------------------
--some lines of code written separately for the resusability purpose.
--write the function once and call it for multiple times.
 
-There are 2 types of functions
+statistics
 
-
-1. builtin functions
-2. user defined functions
-
-
-user defined functions
----------------------------
-
-ways of passing arguments
-- fixed arguments
-- default arguments
-- variable length arguments
-
-
-linux                  python
------------          --------------
-rm -rf filename         os.remove(filename)
-                        os.unlink(filename)
-
-
-whoami                   os.getlogin
-
-cpuutlization/           psutil.cpu_percent()
-memoryutliztin 
-
-cp source des            shutil.copy(s,d)
+what is ML,DL,gen ai , NLP
+different types of algorithms
+- supervised algorithms
+     regression algorithms
+     ----------------
+     linear regression algorithm
+     polynomial 
+     RFRegression
+     classification algorithms
+     -------------------------
+     logistics
+     kNN 
+     random forest
+     decision forest
+- unsupervised algorithms
 
 
 
 
 
-task/requirement = core python            + python library/framework   + domain expertise
-         (procedural or object oriented)
 
-
-
-analytics
----------------
+###############################################
+PEP8 recommendations : style guide of python
+###############################################
